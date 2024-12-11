@@ -10,7 +10,7 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-// Database Connection
+// Database
 const db = new sqlite3.Database(':memory:'); // Using an in-memory database for demonstration.
 
 // Create Tables and Insert Dummy Data
